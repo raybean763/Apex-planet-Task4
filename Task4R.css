@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdfcfb;
+    color: #2e2e2e;
+  }
+  
+  header {
+    background: #1f3c88; 
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  nav button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  nav button:hover {
+    background: #e63946;
+  }
+  
+  .section {
+    padding: 2rem;
+    background: #f1f1f1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .portfolio-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  #taskInput {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 200px;
+    border: 2px solid #1f3c88;
+    border-radius: 4px;
+  }
+  
+  #taskList li {
+    margin: 0.5rem 0;
+    background: #d0f0c0; 
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #taskList li:hover {
+    background: #b2dfdb;
+  }
+  
+  #productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .product {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
